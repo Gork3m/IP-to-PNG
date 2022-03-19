@@ -1,6 +1,5 @@
 # IP-to-PNG
-https://www.npmjs.com/package/ip2png
-Converts your IPv4 address to a 4x4 2-bit PNG which you can extract the IP from.
+Converts your IPv4 address to a 4x4 2-bit PNG which you can extract the IP from. https://www.npmjs.com/package/ip2png
 
 Run `npm install ip2png`
 Example usage:
