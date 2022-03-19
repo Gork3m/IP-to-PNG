@@ -1,11 +1,11 @@
 # IP-to-PNG
 Converts your IPv4 address to a 4x4 2-bit PNG which you can extract the IP from.
 
-Run `npm install` and it will automatically install needed dependencies.
+Run `npm install ip2png`
 Example usage:
 ```js
 const fs = require('fs')
-const ip2png = require('./ip2png.js')
+const ip2png = require('ip2png')
 
 ip2png.Convert("1.1.1.1").pack().pipe(fs.createWriteStream('./output.png'));
 ```
