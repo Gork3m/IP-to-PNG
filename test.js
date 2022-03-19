@@ -1,6 +1,6 @@
 const { Console } = require('console');
 const fs = require('fs')
-const ip2png = require('./ip2png.js')
+const ip2png = require('ip2png')
 
 
 console.log('Enter the IP address: ')
